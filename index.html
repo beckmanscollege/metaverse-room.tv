@@ -3,7 +3,10 @@
 <head>
 	<title>Full Screen Video Example</title>
 	<style>
-		body {
+		body 
+    
+    
+    {
 			margin: 0;
 			padding: 0;
 		}
@@ -34,9 +37,51 @@
 			height: 100%;
 			object-fit: cover;
 		}
+    
+    
+
+
+    #webring {
+    display: flex;
+    text-align: center;
+    font-size: 0.8vw;
+    line-height: 1em;
+    font-family: "pixel", arial;
+    padding: 0.5vw;
+    
+
+    }
+
+    #webring-left, #webring-right {
+    width: 20vw;
+    align-self: center;
+    }
+
+    #webring-middle {
+    flex-grow: 1;
+    align-self: center;
+    }
+    
+    
 	</style>
 </head>
 <body>
+  <div id="webring">
+      <div id="webring-left">
+        <a href="http://lovelovelovelovelovelovelovelovelovelovelovelove-love-love-love.me/">Previous</a>
+      </div>
+          <div id="webring-middle">
+      This Single Serving Site is based on the <a href="https://en.wikipedia.org/wiki/Poetry">Poetry Wikipedia entry</a> 
+      and is part of the <a href="https://2023.worldwidewebring.club">Social Media</a> Webring.
+      </div> 
+      
+      <div id="webring-right">
+        <a href="http://microwa.it/">Next</a>
+      </div>
+    
+    </div>
+  
+  
 	<video id="bg-video" autoplay muted>
 		<source src="https://cdn.glitch.global/b3f08740-5f69-4a24-97f5-de8d4d6728db/WEB%20START%206.mp4?v=1677249006228" type="video/mp4">
 		<source src="bg-video.webm" type="video/webm">
@@ -45,7 +90,7 @@
 	
 	<div id="video-overlay">
 		<video id="overlay-video" autoplay>
-			<source src="https://cdn.glitch.me/b3f08740-5f69-4a24-97f5-de8d4d6728db/WEB%20WATCH%204.mp4?v=1677248442836" type="video/mp4">
+			<source src="https://cdn.glitch.me/b3f08740-5f69-4a24-97f5-de8d4d6728db/WEB%20WATCH%204.mp4?v=1677248442836">
 			<source src="overlay-video.webm" type="video/webm">
 			Your browser does not support the video tag.
 		</video>
